@@ -19,6 +19,11 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Honey the Dog",
   description: "Chief Morale Officer and professional treat enthusiast.",
+  icons: {
+    icon: '/favicons/dog/icon-32.png',
+    apple: '/favicons/dog/apple-icon-180.png',
+    shortcut: '/favicons/dog/favicon.ico',
+  },
 };
 
 export default function RootLayout({
